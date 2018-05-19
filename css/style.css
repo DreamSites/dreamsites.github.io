@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    background: url("../img/header-background.svg") no-repeat center top / cover;
+
+}
+
+.header-container {
+    margin: 0 auto;
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+    margin-top: 30px;
+}
+nav {
+    float: right;
+    margin-top: 33px;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li {
+    float: left;
+    display: block;
+    width: 167px;
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    font-family: "Avenir Next", "Open Sans", sans-serif;
+    font-size: 25px;
+    color: #F0F3F8;
+}
