@@ -14,12 +14,13 @@ header {
     height: 100px;
     width: 100%;
     background: url("../img/header-background.svg") no-repeat center top / cover;
-
+    box-shadow: 0 5px 15px rgba(34, 61, 164, .5);
 }
 
 .header-container {
     margin: 0 auto;
     max-width: 1024px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -27,24 +28,34 @@ header {
 .logo {
     margin-top: 30px;
 }
+
 nav {
     float: right;
     margin-top: 37px;
 }
+
 .menu {
     padding: 0;
     margin: 0;
     display: block;
 }
+
 .menu li {
     float: left;
     display: block;
-    width: 167px;
+    width: 120px;
     text-align: center;
 }
+
 .menu a {
     text-decoration: none;
     font-family: "Avenir Next", "Open Sans", sans-serif;
     font-size: 18px;
     color: #F0F3F8;
+}
+
+@media screen and (max-width: 1074px) {
+    .logo {
+        margin-left: 25px;
+    }
 }
