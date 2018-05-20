@@ -59,6 +59,10 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: center;
 }
 .reliability {
   width: 335px;
@@ -66,10 +70,6 @@ header {
   border-radius: 50px;
   -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(53, 255, 198, 1);
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(53, 255, 198, 1);
-  font-family: "Avenir Next", "Open Sans", sans-serif;
-  font-size: 17px;
-  line-height: 32px;
-  text-align: center;
 }
 .quality {
   width: 335px;
