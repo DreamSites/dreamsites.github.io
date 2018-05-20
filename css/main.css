@@ -27,6 +27,7 @@ header {
 .main-nav {
   display: flex;
   margin: 0;
+  padding: 0;
 }
 
 .main-nav li {
@@ -46,7 +47,46 @@ header {
   text-decoration: none;
   font-family: "Avenir Next", "Open Sans", sans-serif;
 }
+
 .logo {
   padding: 0 !important;
   margin-top: 20px;
+}
+.advantages {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: center;
+}
+.reliability {
+  width: 335px;
+  height: 250px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(53, 255, 198, 1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(53, 255, 198, 1);
+}
+.quality {
+  width: 335px;
+  height: 250px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(39, 171, 250, 1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(39, 171, 250, 1);
+}
+.speed {
+  width: 335px;
+  height: 250px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(83, 0, 230, 1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(83, 0, 230, 1);
+}
+span {
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
 }
