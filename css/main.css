@@ -46,7 +46,16 @@ header {
   text-decoration: none;
   font-family: "Avenir Next", "Open Sans", sans-serif;
 }
+
 .logo {
   padding: 0 !important;
   margin-top: 20px;
+}
+.advantages {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
