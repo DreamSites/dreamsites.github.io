@@ -15,6 +15,7 @@ header {
   width: 100%;
   height: 75px;
 }
+
 .wrapper {
   width: 100%;
   max-width: 1100px;
@@ -112,11 +113,13 @@ h1 {
   margin-top: 50px;
   margin-bottom: 10px;
 }
+
 .about-bg {
   width: 100%;
   height: 263px;
   background: #8C43FF;
 }
+
 .about {
   width: 100%;
   height: 263px;
@@ -130,6 +133,7 @@ h1 {
   text-align: center;
   color: #FFF;
 }
+
 h2 {
   font-family: "Avenir Next", "Open Sans", sans-serif;
   font-size: 40px;
@@ -138,4 +142,72 @@ h2 {
   margin-top: 0;
   margin-bottom: 30px;
   color: #FFF;
+}
+.work {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.work-bg {
+  -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.5);
+  box-shadow: 0 5px 5px rgba(230, 236, 248, 0.5);
+  background: #FFF;
+  border-radius: 50px;
+  height: 747px;
+  border: 1px solid #E6ECF8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.design {
+  border-right: 1px solid #E6ECF8;
+  padding-top: 72px;
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: center;
+}
+.code {
+  padding-top: 72px;
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: center;
+}
+.mentor {
+  border-left: 1px solid #E6ECF8;
+}
+h3 {
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin: 24px auto;
+  color: #000;
+}
+.design h4 {
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 32px;
+  text-align: center;
+  color: #35FFC6;
+  margin: 50px 8px auto;
+}
+.code h4 {
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 32px;
+  text-align: center;
+  color: #27ABFA;
+  margin: 50px 8px auto;
+}
+.mentor h4 {
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 32px;
+  text-align: center;
+  color: #5300E6;
+  margin: 50px 8px auto;
 }
