@@ -68,24 +68,24 @@ header {
   width: 335px;
   height: 250px;
   border-radius: 50px;
-  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(53, 255, 198, 1);
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(53, 255, 198, 1);
+  -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
+  box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
 }
 
 .quality {
   width: 335px;
   height: 250px;
   border-radius: 50px;
-  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(39, 171, 250, 1);
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(39, 171, 250, 1);
+  -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
+  box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
 }
 
 .speed {
   width: 335px;
   height: 250px;
   border-radius: 50px;
-  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(83, 0, 230, 1);
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15), inset 0 10px 0 rgba(83, 0, 230, 1);
+  -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
+  box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
 }
 
 span {
