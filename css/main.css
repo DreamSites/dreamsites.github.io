@@ -65,7 +65,6 @@ header {
 }
 
 .reliability {
-  width: 335px;
   height: 250px;
   border-radius: 50px;
   -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
@@ -73,7 +72,6 @@ header {
 }
 
 .quality {
-  width: 335px;
   height: 250px;
   border-radius: 50px;
   -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
@@ -81,7 +79,6 @@ header {
 }
 
 .speed {
-  width: 335px;
   height: 250px;
   border-radius: 50px;
   -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
@@ -143,11 +140,13 @@ h2 {
   margin-bottom: 30px;
   color: #FFF;
 }
+
 .work {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
 }
+
 .work-bg {
   -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.5);
   box-shadow: 0 5px 5px rgba(230, 236, 248, 0.5);
@@ -158,6 +157,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .design {
   border-right: 1px solid #E6ECF8;
   padding-top: 72px;
@@ -166,6 +166,7 @@ h2 {
   line-height: 32px;
   text-align: center;
 }
+
 .code {
   padding-top: 72px;
   font-family: "Avenir Next", "Open Sans", sans-serif;
@@ -173,6 +174,7 @@ h2 {
   line-height: 32px;
   text-align: center;
 }
+
 .mentor {
   border-left: 1px solid #E6ECF8;
   padding-top: 72px;
@@ -181,6 +183,7 @@ h2 {
   line-height: 32px;
   text-align: center;
 }
+
 h3 {
   font-family: "Avenir Next", "Open Sans", sans-serif;
   font-size: 28px;
@@ -189,6 +192,7 @@ h3 {
   margin: 24px auto;
   color: #000;
 }
+
 .design h4 {
   font-family: "Avenir Next", "Open Sans", sans-serif;
   font-size: 17px;
@@ -198,6 +202,7 @@ h3 {
   color: #4E6CE5;
   margin: 50px 8px auto;
 }
+
 .code h4 {
   font-family: "Avenir Next", "Open Sans", sans-serif;
   font-size: 17px;
@@ -207,6 +212,7 @@ h3 {
   color: #4E6CE5;
   margin: 50px 8px auto;
 }
+
 .mentor h4 {
   font-family: "Avenir Next", "Open Sans", sans-serif;
   font-size: 17px;
