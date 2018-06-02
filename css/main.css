@@ -238,3 +238,19 @@ h3 {
   color: #4E6CE5;
   margin: 50px 8px auto;
 }
+@media screen and (max-width: 850px) {
+  .work-bg {
+    grid-template-columns: 1fr;
+    height: 2241px;
+  }
+  .design {
+    border-right: 0;
+    border-bottom: 1px solid #E6ECF8;
+  }
+  .code {
+    border-bottom: 1px solid #E6ECF8;
+  }
+  .advantages {
+    grid-template-columns: 1fr;
+  }
+}
