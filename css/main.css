@@ -42,7 +42,7 @@ header {
   color: black;
   display: block;
   border-radius: 0px;
-  padding: 10px 10px;
+  padding: 10px;
   margin-top: 16px;
   text-decoration: none;
   font-family: "Avenir Next", "Open Sans", sans-serif;
@@ -58,10 +58,14 @@ header {
   border-radius: 50px !important;
   margin-top: 9px !important;
   border: 2px solid #4E6CE5;
-  -webkit-transition: all 0.3s ease;;
-  -o-transition: all 0.3s ease;;
-  transition: all 0.3s ease;;
+  -webkit-transition: all 0.3s ease;
+  ;
+  -o-transition: all 0.3s ease;
+  ;
+  transition: all 0.3s ease;
+  ;
 }
+
 .contact-us:hover {
   color: #FFF !important;
   background: #4E6CE5;
@@ -238,6 +242,7 @@ h3 {
   color: #4E6CE5;
   margin: 50px 8px auto;
 }
+
 @media screen and (max-width: 850px) {
   .work-bg {
     grid-template-columns: 1fr;
@@ -253,4 +258,74 @@ h3 {
   .advantages {
     grid-template-columns: 1fr;
   }
+}
+
+.section-contact {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.text {
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid #E6ECF8;
+  height: 50px;
+  width: 100%;
+}
+
+.placeholder {
+  color: rgba(41, 51, 71, 0.65);
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+}
+
+.text:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.name-email {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+textarea {
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid #E6ECF8;
+  height: 150px;
+  width: 100%;
+  line-height: 50px;
+  resize: none;
+}
+
+.submit {
+  margin: 10px auto;
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  color: #4E6CE5;
+  border-radius: 50px;
+  border: 2px solid #4E6CE5;
+  -webkit-transition: all 0.3s ease;
+  ;
+  -o-transition: all 0.3s ease;
+  ;
+  transition: all 0.3s ease;
+  ;
+  width: 200px;
+  text-align: center;
+}
+
+.submit:hover {
+  color: #FFF !important;
+  background: #4E6CE5;
 }

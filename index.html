@@ -12,6 +12,32 @@
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/wow.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('#submit').click(function() {
+        // собираем данные с формы
+        var username = $('#user_name').val();
+        var useremail = $('#user_email').val();
+        var message = $('#yourtips').val();
+        // отправляем данные
+        $.ajax({
+          url: "php/action.php", // куда отправляем
+          type: "post", // метод передачи
+          dataType: "json", // тип передачи данных
+          data: { // что отправляем
+            "username": username,
+            "useremail": useremail,
+            "message": message
+          },
+          // после получения ответа сервера
+          success: function(data) {
+            $('.messages').html(data.result); // выводим ответ сервера
+          }
+        });
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -226,6 +252,26 @@
         8000+ комментариев
       </div>
     </div>
+  </section>
+  <section class="section-contact">
+    <h1>Связаться с нами</h1>
+    <form class="contact-us-form" action="php/action.php" method="post">
+      <div class="name-email">
+        <div>
+          <div class="placeholder">Ваше имя</div>
+          <input type="name" name="username" id="username" value="" class="text">
+        </div>
+        <div>
+          <div class="placeholder">Ваш электронный адрес</div>
+          <input type="email" name="useremail" id="useremail" value="" class="text">
+        </div>
+      </div>
+      <div>
+        <div class="placeholder" style="margin-top: 10px;">Ваше сообщение</div>
+        <textarea name="message" id="message" rows="3"></textarea>
+      </div>
+      <a class="submit" id="submit">Отправить</a>
+    </form>
   </section>
 </body>
 
