@@ -19,7 +19,7 @@
         // собираем данные с формы
         var username = $('#user_name').val();
         var useremail = $('#user_email').val();
-        var message = $('#yourtips').val();
+        var usermessage = $('#yourtips').val();
         // отправляем данные
         $.ajax({
           url: "php/action.php", // куда отправляем
@@ -28,11 +28,11 @@
           data: { // что отправляем
             "username": username,
             "useremail": useremail,
-            "message": message
+            "usermessage": usermessage
           },
           // после получения ответа сервера
           success: function(data) {
-            $('.messages').html(data.result); // выводим ответ сервера
+            $('.usermessages').html(data.result); // выводим ответ сервера
           }
         });
       });
@@ -268,7 +268,7 @@
       </div>
       <div>
         <div class="placeholder" style="margin-top: 10px;">Ваше сообщение</div>
-        <textarea name="message" id="message" rows="3"></textarea>
+        <textarea name="usermessage" id="usermessage" rows="3"></textarea>
       </div>
       <a class="submit" id="submit">Отправить</a>
     </form>
