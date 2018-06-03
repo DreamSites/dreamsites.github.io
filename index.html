@@ -17,9 +17,9 @@
     $(document).ready(function() {
       $('#submit').click(function() {
         // собираем данные с формы
-        var username = $('#user_name').val();
-        var useremail = $('#user_email').val();
-        var usermessage = $('#yourtips').val();
+        var username = $('#username').val();
+        var useremail = $('#useremail').val();
+        var usermessage = $('#usermessage').val();
         // отправляем данные
         $.ajax({
           url: "php/action.php", // куда отправляем
