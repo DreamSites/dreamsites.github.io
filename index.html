@@ -13,31 +13,8 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/wow.min.js"></script>
 
-  <script>
-    $(document).ready(function() {
-      $('#submit').click(function() {
-        // собираем данные с формы
-        var username = $('#username').val();
-        var useremail = $('#useremail').val();
-        var usermessage = $('#usermessage').val();
-        // отправляем данные
-        $.ajax({
-          url: "php/action.php", // куда отправляем
-          type: "post", // метод передачи
-          dataType: "json", // тип передачи данных
-          data: { // что отправляем
-            "username": username,
-            "useremail": useremail,
-            "usermessage": usermessage
-          },
-          // после получения ответа сервера
-          success: function(data) {
-            $('.usermessages').html(data.result); // выводим ответ сервера
-          }
-        });
-      });
-    });
-  </script>
+  <script src="js/mail.js"></script>
+
 </head>
 
 <body>
@@ -255,7 +232,7 @@
   </section>
   <section class="section-contact">
     <h1>Связаться с нами</h1>
-    <form class="contact-us-form" action="php/action.php" method="post">
+    <form class="contact-us-form" action="/php/mail.php" method="POST">
       <div class="name-email">
         <div>
           <div class="placeholder">Ваше имя</div>
@@ -270,7 +247,7 @@
         <div class="placeholder" style="margin-top: 10px;">Ваше сообщение</div>
         <textarea name="usermessage" id="usermessage" rows="3"></textarea>
       </div>
-      <a class="submit" id="submit">Отправить</a>
+      <input type="submit" class="submit" id="submit" value="Отправить">
     </form>
   </section>
 </body>

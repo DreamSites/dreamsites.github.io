@@ -312,17 +312,16 @@ textarea {
   padding: 10px 0;
   text-decoration: none;
   font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
   color: #4E6CE5;
   border-radius: 50px;
   border: 2px solid #4E6CE5;
   -webkit-transition: all 0.3s ease;
-  ;
   -o-transition: all 0.3s ease;
-  ;
   transition: all 0.3s ease;
-  ;
   width: 200px;
   text-align: center;
+  background: #FFF;
 }
 
 .submit:hover {
