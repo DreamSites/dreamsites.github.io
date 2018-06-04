@@ -13,7 +13,7 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/wow.min.js"></script>
 
-  <script src="js/mail.js"></script>
+  <script src="js/scroll.js"></script>
 
 </head>
 
@@ -22,7 +22,7 @@
     <div class="wrapper">
       <ul class="main-nav">
         <li><a href="#" class="logo"><img src="img/Logo.png" style="width: 329px;"></a></li>
-        <li><a href="#" class="contact-us">Связаться с нами</a></li>
+        <li><a href="#contact-us" class="contact-us">Связаться с нами</a></li>
       </ul>
     </div>
   </header>
@@ -230,9 +230,9 @@
       </div>
     </div>
   </section>
-  <section class="section-contact">
+  <section class="section-contact" id="contact-us">
     <h1>Связаться с нами</h1>
-    <form class="contact-us-form" action="/php/mail.php" method="POST">
+    <form class="contact-us-form" action="../php/mail.php" method="POST">
       <div class="name-email">
         <div>
           <div class="placeholder">Ваше имя</div>

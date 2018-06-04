@@ -322,6 +322,7 @@ textarea {
   width: 200px;
   text-align: center;
   background: #FFF;
+  cursor: pointer;
 }
 
 .submit:hover {
