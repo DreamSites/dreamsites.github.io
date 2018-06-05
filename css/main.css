@@ -346,3 +346,22 @@ textarea {
   color: #FFF !important;
   background: #4E6CE5;
 }
+footer {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #4E6CE5;
+  font-family: "Avenir Next", "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #FFF;
+  text-align: center;
+  padding-top: 39px;
+}
+@media screen and (max-width: 337px) {
+  footer {
+    padding-top: 27px;
+  }
+}
