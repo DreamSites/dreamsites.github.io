@@ -324,7 +324,7 @@ textarea {
 }
 
 .submit {
-  margin: 10px auto;
+  margin: 33px auto;
   display: block;
   padding: 10px 0;
   text-decoration: none;
@@ -346,6 +346,7 @@ textarea {
   color: #FFF !important;
   background: #4E6CE5;
 }
+
 footer {
   box-sizing: border-box;
   margin: 0;
@@ -360,6 +361,7 @@ footer {
   text-align: center;
   padding-top: 39px;
 }
+
 @media screen and (max-width: 337px) {
   footer {
     padding-top: 27px;
