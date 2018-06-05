@@ -258,6 +258,23 @@ h3 {
   .advantages {
     grid-template-columns: 1fr;
   }
+  .name-email {
+    grid-template-columns: 1fr !important;
+  }
+  .placeholder {
+    margin-left: 5%;
+  }
+  .submit {
+    width: 90% !important;
+  }
+  textarea {
+    width: 90% !important;
+    margin-left: 5%;
+  }
+  .text {
+    width: 90% !important;
+    margin-left: 5%;
+  }
 }
 
 .section-contact {
