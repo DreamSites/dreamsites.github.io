@@ -275,6 +275,12 @@ h3 {
     width: 90% !important;
     margin-left: 5%;
   }
+  .contact-us {
+    display: none !important;
+  }
+  .main-nav li:first-child {
+    margin: 0 auto !important;
+  }
 }
 
 .section-contact {
