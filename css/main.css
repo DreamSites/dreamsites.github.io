@@ -256,6 +256,7 @@ h3 {
   border: 1px solid #E6ECF8;
   height: 50px;
   width: 100%;
+  -webkit-appearance: none;
 }
 
 .placeholder {
@@ -287,6 +288,7 @@ textarea {
   width: 100%;
   line-height: 50px;
   resize: none;
+  -webkit-appearance: none;
 }
 
 .submit {
