@@ -306,6 +306,7 @@ textarea {
   text-align: center;
   background: #FFF;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .submit:hover {
@@ -333,61 +334,73 @@ footer {
     padding-top: 27px;
   }
 }
+
 @media screen and (max-width: 1020px) {
   .about-bg {
     height: 293px;
   }
 }
+
 @media screen and (max-width: 727px) {
   .about-bg {
     height: 323px;
   }
 }
+
 @media screen and (max-width: 590px) {
   .about-bg {
     height: 353px;
   }
 }
+
 @media screen and (max-width: 508px) {
   .about-bg {
     height: 383px;
   }
 }
+
 @media screen and (max-width: 486px) {
   .about-bg {
     height: 413px;
   }
 }
+
 @media screen and (max-width: 443px) {
   .about-bg {
     height: 443px;
   }
 }
+
 @media screen and (max-width: 394px) {
   .about-bg {
     height: 473px;
   }
 }
+
 @media screen and (max-width: 365px) {
   .about-bg {
     height: 503px;
   }
 }
+
 @media screen and (max-width: 352px) {
   .about-bg {
     height: 533px;
   }
 }
+
 @media screen and (max-width: 352px) {
   .about-bg {
     height: 533px;
   }
 }
+
 @media screen and (max-width: 301px) {
-  body > * {
+  body>* {
     display: none !important;
   }
 }
+
 @media screen and (max-width: 850px) {
   .work-bg {
     grid-template-columns: 1fr;
