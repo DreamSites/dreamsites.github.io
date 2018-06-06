@@ -249,7 +249,7 @@ h3 {
   margin: 0 auto;
 }
 
-.text {
+input {
   font-family: "Avenir Next", "Open Sans", sans-serif;
   font-size: 17px;
   border-radius: 5px;
@@ -265,7 +265,7 @@ h3 {
   font-size: 17px;
 }
 
-.text:focus {
+input:focus {
   outline: none;
 }
 
@@ -431,8 +431,8 @@ footer {
     width: 90% !important;
     margin-left: 5%;
   }
-  .text {
-    width: 90%;
+  input {
+    width: 90% !important;
     margin-left: 5%;
   }
   .contact-us {
