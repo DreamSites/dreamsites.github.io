@@ -263,6 +263,7 @@ input {
   color: rgba(41, 51, 71, 0.65);
   font-family: "Avenir Next", "Open Sans", sans-serif;
   font-size: 17px;
+
 }
 
 input:focus {
@@ -423,6 +424,7 @@ footer {
   }
   .placeholder {
     margin-left: 5%;
+    text-align:center;
   }
   .submit {
     width: 90% !important;
