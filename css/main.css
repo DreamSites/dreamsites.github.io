@@ -443,7 +443,8 @@ footer {
   }
   .input {
     width: 90% !important;
-    margin-left: 5%;
+    float: right;
+    margin-right: 5%;
   }
   .contact-us {
     display: none !important;
