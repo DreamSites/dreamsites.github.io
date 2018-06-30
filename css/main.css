@@ -249,7 +249,7 @@ h3 {
   margin: 0 auto;
 }
 
-input {
+.input {
   font-family: "Avenir Next", "Avenir Next Cyr", "Open Sans", sans-serif;
   font-size: 17px;
   border-radius: 5px;
@@ -257,6 +257,8 @@ input {
   height: 50px;
   width: 100%;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .placeholder {
@@ -265,7 +267,7 @@ input {
   font-size: 17px;
 }
 
-input:focus {
+.input:focus {
   outline: none;
 }
 
@@ -434,7 +436,7 @@ footer {
     width: 90% !important;
     margin-left: 5%;
   }
-  input {
+  .input {
     width: 90% !important;
     margin-left: 5%;
   }
