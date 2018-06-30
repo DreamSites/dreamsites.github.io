@@ -415,6 +415,9 @@ footer {
   .code {
     border-bottom: 1px solid #E6ECF8;
   }
+  .mentor {
+    border-left: 0;
+  }
   .advantages {
     grid-template-columns: 1fr;
   }
