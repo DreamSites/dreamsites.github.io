@@ -256,6 +256,9 @@ h3 {
   border: 1px solid #E6ECF8;
   height: 50px;
   width: 100%;
+  padding: 0;
+  margin: 0;
+  resize: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -291,6 +294,8 @@ textarea {
   line-height: 50px;
   resize: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .submit {
