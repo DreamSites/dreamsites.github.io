@@ -341,7 +341,9 @@ footer {
   text-align: center;
   padding-top: 39px;
 }
-
+.MT {
+  margin-top: 10px;
+}
 @media screen and (max-width: 337px) {
   footer {
     padding-top: 27px;
@@ -414,7 +416,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 890px) {
   .work-bg {
     grid-template-columns: 1fr;
     height: 2241px;
@@ -437,6 +439,9 @@ footer {
   }
   .placeholder {
     margin-left: 5%;
+  }
+  .MT {
+    margin-top: 0 !important;
   }
   .submit {
     width: 90% !important;
