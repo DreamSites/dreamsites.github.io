@@ -416,7 +416,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 890px) {
   .work-bg {
     grid-template-columns: 1fr;
     height: 2241px;
