@@ -1,7 +1,7 @@
 <?php
-if (!empty($_POST['username']) AND !empty($_POST['useremail']) !empty($_POST['usermessage'])){
+if (!empty($_POST['firstname']) AND !empty($_POST['useremail']) !empty($_POST['usermessage'])){
 
-  $letter = 'Имя: '.$_POST['username'].'\r\n';
+  $letter = 'Имя: '.$_POST['firstname'].'\r\n';
   $letter .= 'Электронный адрес: '.$_POST['useremail'].'\r\n';
   $letter .= 'Сообщение: '.$_POST['usermessage'].'\r\n';
 
