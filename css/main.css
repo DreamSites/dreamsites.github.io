@@ -84,21 +84,7 @@ header {
   text-align: center;
 }
 
-.reliability {
-  height: 250px;
-  border-radius: 50px;
-  -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
-  box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
-}
-
-.quality {
-  height: 250px;
-  border-radius: 50px;
-  -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
-  box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
-}
-
-.speed {
+.advantagesItem {
   height: 250px;
   border-radius: 50px;
   -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75), inset 0 10px 0 rgba(78, 108, 229, 1);
@@ -110,7 +96,9 @@ span {
   font-size: 28px;
   font-weight: 500;
 }
-
+.portfolio span {
+  margin-top: 10px;
+}
 .hero {
   width: 100%;
   max-width: 1100px;
@@ -343,6 +331,24 @@ footer {
 }
 .MT {
   margin-top: 10px;
+}
+.portfolio {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  font-family: "Avenir Next", "Avenir Next Cyr", "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: center;
+}
+.portfolioItem {
+  height: 250px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75);
+  box-shadow: 0 5px 5px rgba(230, 236, 248, 0.75);
 }
 @media screen and (max-width: 337px) {
   footer {
