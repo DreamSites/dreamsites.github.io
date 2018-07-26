@@ -58,17 +58,36 @@ header {
   border-radius: 50px !important;
   margin-top: 9px !important;
   border: 2px solid #4E6CE5;
-  -webkit-transition: all 0.3s ease;
-  ;
-  -o-transition: all 0.3s ease;
-  ;
-  transition: all 0.3s ease;
-  ;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-us::before {
+  content:'';
+	position: absolute;
+	top: 0px;
+  left: 75px;
+	width: 0px;
+	height: 42px;
+	background: #4E6CE5;
+	border-radius: 20px;
+	-webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  z-index: -1;
+}
+
+.contact-us:hover::before {
+  width: 100%;
+  left: 0;
 }
 
 .contact-us:hover {
   color: #FFF !important;
-  background: #4E6CE5;
+  transform: scale(1.1);
 }
 
 .advantages {
@@ -139,6 +158,7 @@ h1 {
   line-height: 32px;
   text-align: center;
   color: #FFF;
+  margin-top: -12px;
 }
 
 h2 {
@@ -310,11 +330,32 @@ textarea {
   background: #FFF;
   cursor: pointer;
   -webkit-appearance: none;
+  position: relative;
+}
+
+.submit::before {
+  content:'';
+	position: absolute;
+	top: 0px;
+  left: 100px;
+	width: 0px;
+	height: 100%;
+	background: #4E6CE5;
+	border-radius: 50px;
+	-webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  z-index: -1;
+}
+
+.submit:hover::before {
+  width: 100%;
+  left: 0;
 }
 
 .submit:hover {
   color: #FFF !important;
-  background: #4E6CE5;
+  transform: scale(1.1);
 }
 
 footer {
