@@ -377,6 +377,72 @@ footer {
   margin-top: 10px;
 }
 
+.thanks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  background: #4E6CE5;
+}
+
+.thanksBackground {
+  height: 400px;
+  width: 500px;
+  margin-top: -200px;
+  margin-left: -250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50px;
+  background: #FFF;
+}
+
+.thanksBackground h2 {
+  color: black;
+  margin-bottom: 0;
+}
+
+.thanksBackground p {
+  font-family: "Avenir Next", "Avenir Next Cyr", "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.thanksBackground a {
+  width: 200px;
+  text-align: center;
+  color: black;
+  display: block;
+  border-radius: 0px;
+  padding: 10px;
+  margin-top: 16px;
+  text-decoration: none;
+  font-family: "Avenir Next", "Avenir Next Cyr", "Open Sans", sans-serif;
+}
+
+.thanksBackground .contact-us::before {
+  content:'';
+	position: absolute;
+	top: 0px;
+  left: 110px;
+	width: 0px;
+	height: 42px;
+	background: #4E6CE5;
+	border-radius: 20px;
+	-webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  z-index: -1;
+}
+
+.thanksBackground .contact-us:hover::before {
+  width: 100%;
+  left: 0;
+}
+
 @media screen and (max-width: 337px) {
   footer {
     padding-top: 27px;
@@ -488,10 +554,34 @@ footer {
     float: right;
     margin-right: 5%;
   }
-  .contact-us {
+  header .contact-us {
     display: none !important;
   }
   .main-nav li:first-child {
     margin: 0 auto !important;
+  }
+}
+@media screen and (max-width: 510px) {
+  .thanksBackground {
+    width: 90%;
+    margin: -200px auto;
+    left: 5%;
+  }
+}
+@media screen and (max-width: 501px) {
+  .thanksBackground {
+    height: 430px;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .thanksBackground {
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .thanksBackground {
+    height: 530px;
   }
 }
